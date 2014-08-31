@@ -1,0 +1,24 @@
+{
+  "name": "ngUnderscore",
+  "version": "1.0.0",
+  "authors": [
+    "Victor Queiroz <victorcqueirozg@gmail.com>"
+  ],
+  "description": "Integration of Underscore.js at your AngularJS application",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "underscore": "~1.7.0",    
+    "angular": "~1.2.23",
+    "angular-mocks": "~1.2.23"
+  }
+}
