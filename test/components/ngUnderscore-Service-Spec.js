@@ -15,10 +15,10 @@
 
 		describe('services', function () {
 			describe('ngUnderscore', function () {
-				var _, i, ids, id;
+				var underscore, i, ids, id;
 
 				beforeEach(inject(function ($injector) {
-					_ = $injector.get('_');
+					underscore = $injector.get('underscore');
 				}));
 
 				it('should filter an array', function () {
@@ -28,7 +28,7 @@
 						ids.push({id: i});
 					}
 
-					id = _.filter(ids, function (id) {
+					id = underscore.filter(ids, function (id) {
 						return (id.id === 10);
 					});
 
