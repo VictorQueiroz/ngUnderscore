@@ -4,7 +4,7 @@
 	angular
 		.module('ngUnderscore/Service', [])
 
-		.factory('_', ['$window', function ($window) {
+		.factory('underscore', ['$window', function ($window) {
 			return $window._;
 		}]);
 })();
