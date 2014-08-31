@@ -5,5 +5,5 @@ Integration of Underscore.js with your AngularJS application
 
 ## Usage
 ```
-bower install --save angular-underscore
+bower install --save ng-underscore.js
 ```
